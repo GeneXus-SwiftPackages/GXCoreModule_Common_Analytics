@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXCoreModule_Common_AnalyticsWrapper",
 				dependencies: [
 					"GXCoreModule_Common_Analytics",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS, .watchOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Analytics",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Analytics-1.0.0-beta+20230315182831.xcframework.zip",
-			checksum: "c3f37a15a7fe221dbe0b75a12b7e5a5a4828655e2dd885bba501a009d6b4da22"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Analytics-1.0.0-beta+20230316142352.xcframework.zip",
+			checksum: "c62d999322d37d3aa1f974a7fcb4b4ce8085c9ad4a74035a28fd3538b2f2a862"
 		)
 	]
 )
