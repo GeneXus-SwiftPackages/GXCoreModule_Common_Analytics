@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Analytics",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Analytics-1.0.0-beta+20230525135158.xcframework.zip",
-			checksum: "e1f13d36e3deba323cfe973f2ba61e007d53725533f006324c60491c5f37f138"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_Analytics-1.0.0-beta+20230525143554.xcframework.zip",
+			checksum: "8a0a07db590f35489c3049eba062a1f96cf7976c88c62939bf006a37caf892da"
 		)
 	]
 )
