@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_Common_AnalyticsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "2.0.17")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "2.0.18")
 	],
 	targets: [
 		.target(name: "GXCoreModule_Common_AnalyticsWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_Analytics",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_Common_Analytics-2.0.17.xcframework.zip",
-			checksum: "2f903514c3369b88fc6609a8015d9de266b2b609076f7ec6bf1b65f6707917f2"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_Common_Analytics-2.0.18.xcframework.zip",
+			checksum: "49f327416830c4f52419a23ddfb1ced1b1bfcff565f897214c7f6fdaadafc66c"
 		)
 	]
 )
